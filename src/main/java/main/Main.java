@@ -1,8 +1,18 @@
-package ohtu.ohtuvarasto;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package main;
 
+import ohtu.ohtuvarasto.Varasto;
+
+/**
+ *
+ * @author terhiroksa
+ */
 public class Main {
-
-    public static void main(String[] args) {
+   public static void main(String[] args) {
 
         Varasto mehua = new Varasto(100.0);
         Varasto olutta = new Varasto(100.0, 20.2);
@@ -55,4 +65,5 @@ public class Main {
         System.out.println("saatiin " + saatiin);
         System.out.println("Mehuvarasto: " + mehua);
     }
-}
+} 
+
